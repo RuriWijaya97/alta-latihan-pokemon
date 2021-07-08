@@ -48,7 +48,7 @@ function Kalkulator() {
       </ul>
       <input value={num1} onChange={handleChangeNum1} type="number" />
       <select className="m-2" value={operator} onChange={handleChangeOperator}>
-        {["+", "-", "*", "/"]?.map((e, i) => (
+        {["+", "-", "*", "/"].map((e, i) => (
           <option key={i} value={e}>
             {e}
           </option>
